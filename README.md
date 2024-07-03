@@ -9,7 +9,7 @@ markdownからhtmlファイルへ変換するアプリケーション
 ## 📝説明
 コマンドラインから指定したmdファイルをhtml形式のファイルに変換します。
 以下、入力コマンド例です。
- - python3 markdown_to_html.py markdown <inputpath>.txt <outputpath>.html
+ * python3 markdown_to_html2.py markdown  /home/kenya/recursion/python_practice/markdown_to_html/test.txt /home/kenya/recursion/python_practice/markdown_to_html/converted_files/d.html
  
 ## 🧰前提条件
 

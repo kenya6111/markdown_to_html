@@ -7,16 +7,17 @@ def convert_to_html(input_path, output_path):
     with open(input_path, 'r') as f:
         content = f.read()
     
+    # markdown→htmlに変換
     md = markdown.Markdown()
     converted_content = md.convert(content)
 
+    # 指定outputファイルに書き込み
     with open(output_path, 'w') as f:
         f.write(converted_content)
 
 def main():
     # コマンド引数取得
     command = sys.argv[1]
-    print("いえい")
 
     if command =='markdown':
         # コマンド引数チェック
@@ -24,12 +25,10 @@ def main():
             print("Usage: markdown <inputpath>.txt <outputpath>.html")
             return        
         # 引数取得
-        print("いえい2")
         input_path = sys.argv[2]
-        print(input_path)
         output_path = sys.argv[3]
-        print(output_path)
         convert_to_html(input_path, output_path)
+        print("変換が完了しました")
 
 if __name__ == "__main__":
     main()

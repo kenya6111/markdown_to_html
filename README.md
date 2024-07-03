@@ -113,10 +113,7 @@ pip3 --version
 作成した理由を記載する。
 
 ## ⭐️こだわった点
- - 各ファイル操作を関数化し、再利用性を向上
- - with句を用いてファイルを安全に閉じるようにした
- - main関数内でコマンド引数の数をチェックし、必要な引数が不足している場合には適切なエラーメッセージを表示してプログラムの実行を停止
- - コマンド引数の処理をmain関数でまとめ、使いやすくしました。
+ - 
 テキストや参考にした記事などを再度読み返して技術の理解を深めてから書く。
 
 ここがエンジニアに一番読んでもらいたい箇所なのでできるだけ詳細に書く。
@@ -125,8 +122,8 @@ pip3 --version
 
 ## 📑参考文献
 ### 公式ドキュメント
-- [Python](https://docs.python.org/ja/3/)
-- [コマンドライン引数の受取](https://qiita.com/taashi/items/07bf75201a074e208ae5)
-- [ファイルの作成削除](https://www.javadrive.jp/python/file/index9.html)
-- [ファイルの中身削除](https://teratail.com/questions/263025)
-- [with句について](https://djangobrothers.com/blogs/with_statement_basic/#google_vignette)
+- [Python_Download](https://www.python.org/downloads/)
+- [pipのインストールガイド](https://pip.pypa.io/en/stable/installation/)
+- [markdownのプロジェクトの説明](https://pypi.org/project/Markdown/)
+- [Markdown記法一覧](https://qiita.com/oreo/items/82183bfbaac69971917f#:~:text=Markdown%EF%BC%88%E3%83%9E%E3%83%BC%E3%82%AF%E3%83%80%E3%82%A6%E3%83%B3%EF%BC%89%E3%81%AF%E3%80%81,%E3%82%82%E9%96%8B%E7%99%BA%E3%81%95%E3%82%8C%E3%81%A6%E3%81%84%E3%82%8B%E3%80%82)
+- [HTML の基本](https://developer.mozilla.org/ja/docs/Learn/Getting_started_with_the_web/HTML_basics)
